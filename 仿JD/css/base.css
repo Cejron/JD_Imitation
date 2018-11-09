@@ -1,0 +1,649 @@
+.w{
+    width: 1210px;
+    margin: 0 auto;
+}
+/* nav开始 */
+.site-nav{
+    height: 30px;
+    line-height: 30px;
+    background-color: #f1f1f1;
+}
+.send{
+    padding:0 20px 0 10px;
+    height: 30xp; 
+    position: relative;
+}
+.send s{
+    position: absolute;
+    display: inline-block;
+    width: 6px;
+    height: 14px;
+    top: 14px;
+    left: 76px;
+    overflow: hidden;
+}
+.send i{
+    display: inline-block;
+    position: absolute;
+    width: 6px;
+    height: 14px;
+    top: -15px;
+    left: 0px; 
+  
+}
+
+.fr ul li{
+    float: left;;
+    display: inline-block;
+    padding:0 10px;
+    position: relative;
+}
+.fr ul li.line{
+    margin-top: 9px;
+    height: 12px;
+    padding: 0;
+    width: 1px;
+    background-color: #666;
+}
+.fr ul li.fore{
+    position: relative;
+    padding-right: 25px;
+    
+}
+.fore s{
+    display: block;
+    width: 6px;
+    height: 14px;
+    top:12px;
+    right: 14px;
+    position: absolute;
+    overflow: hidden;
+
+}
+.fore s i{
+    position: absolute;
+    display: inline-block;
+    width: 6px;
+    height: 14px;
+    top:-15px;
+    right: 0;
+}
+.fore a.withtel{
+    position: relative;
+    display: block;
+    padding-left: 20px;
+}
+.fore a.withtel span{
+    position: absolute;
+    display: block;
+    width: 15px;
+    height: 20px;
+    top: 5px;
+    left: 0;    
+    background-image: url("../image/tel.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+
+
+/* nav结束 */
+
+/* topbanner开始 */
+.topbanner{
+    height:80px;
+    background-color: #ff031a;
+    margin: 0 auto;
+    position: relative;
+}
+.topbanner .cls-btn{
+    display: block;
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    top: 2px;
+    right: 0;
+    background-image: url(../image/close-ban.png);
+    background-repeat: no-repeat;  
+    background-position: 0 0;
+}
+.topbanner .cls-btn:hover{
+    background-position: 0 -19;
+}
+/* topbanner结束 */
+/* search开始 */
+.search{
+    background-color: white;
+}
+.search-logo{
+    float: left;
+    width: 360px;
+    padding: 20px 0;
+    position: relative;
+}
+.search-logo-jd{
+    float: left;
+    display: block;
+    width: 270px;
+    height: 60px;
+    background-image: url(../image/logo.png);
+    background-repeat: no-repeat;
+}
+.search-logo-db{
+
+    position: absolute;
+    display: block;
+    width: 180px;
+    height: 80px;
+    background-image: url(../image/dong.gif);
+    background-repeat: no-repeat;
+    top: 4px;
+    right: 15px;
+}
+.search-input{
+    float: left;
+    width: 538px;
+    margin-top: 25px;
+}
+.search-input-A{
+    float: left;
+    height: 32px;
+    width:450px;
+    border: 2px solid rgb(182, 29, 29);
+    outline: none;
+    text-indent: 1em;
+}
+.search-input-B{
+    float: left;
+    height: 36px;
+    width:80px; 
+    border: none;
+    background-color: rgb(182, 29, 29);
+    color: white;
+    outline: none;
+    text-align: center;
+    font-size: 16px;
+    line-height: 36px;
+
+}
+.search-car{
+    float: right;
+    margin: 25px 65px 0 0;
+    position: relative;
+}
+.search-car .mycar{
+    display: block;
+    width: 96px;
+    height: 34px;
+    padding-left: 43px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-size: 12px;
+    line-height: 34px;
+
+}
+.search-car .acar{
+    display: block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top:5px;
+    left: 13px;
+    background-image: url(../image/tel.png);
+    background-repeat: no-repeat;
+    background-position: 2px -54px;
+}
+.search-car .asign{
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px 8px 8px 0/8px 8px 8px 0;
+    background-color:rgb(182, 29, 29);
+    color: white;
+    position: absolute;
+    top:-6px;
+    left: 100px;
+
+}
+.search-car .amore{
+    position: absolute;
+    display: block;
+    width: 8px;
+    top: 11px;
+    right: 14px;
+}
+.search-more{
+    padding: 8px 3px 8px 3px;
+    float: left;
+    
+}
+.search-more a{
+    font-size: 12px;
+    text-align: center;
+}
+
+/* search结束 */
+/* shortcut开始 */
+.shortcut{
+
+}
+.shortcut-all{
+    float: left;
+    width: 210px;
+    
+}
+.shortcut-all .shortcut-all-head{
+    width: 210px;
+    height: 46px;
+    background-image: url(../image/img1.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 99999;
+}
+.shortcut-all .shortcut-all-head a{
+    display: block;
+    padding-left: 10px;
+    font:500 15px/46px "微软雅黑";
+    color: white;
+}
+
+.shortcut-all .shortcut-all-body{
+    width: 210px;
+    background-color: #C81623;
+}
+.shortcut-all-body .short-all-body-oneitem{
+    position: relative;
+}
+
+.shortcut-all-body .short-all-body-oneitem a{
+    display: block;
+    width: 201px;
+    height: 31px;
+    padding-left: 9px;
+    font-weight: 500px;
+    font-size: 14px;
+    line-height: 31px;
+    font-family:  "微软雅黑";
+    color: white;
+
+}
+.short-all-body-oneitem i{
+    display: block;
+    width: 6.24px;
+    color: white;
+    font-weight: 900;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+}
+
+.shortcut-all-body .short-all-body-oneitem:hover{
+    background-color: white;
+    
+}
+.shortcut-all-body .short-all-body-oneitem a:hover{
+    color: #C81623;
+}
+.shortcut-nav{
+    float: left;
+    display: flex;
+}
+.shortcut-nav li{
+    display: inline-block;
+    flex: 1;
+}
+.shortcut-nav li a{
+    display: block;
+    height: 46px;
+    padding:0 20px;
+    font: 16px/46px 微软雅黑;
+    color: rgb(51, 51, 51);
+}
+.shortcut-pic{
+    float: right;
+}
+.shortcut-pic a{
+    display: block;
+    height: 46px;
+    width: 140px;
+}
+.bottombanner{
+    height: 10px;
+    background-image: url("../image/bottombanner.jpg");
+    position: relative;
+    margin-top: 36px;
+
+}
+/* shortcut结束 */
+/* 版心广告开始 */
+.adv{
+    position: relative;
+}
+.adv a{
+    display: block;
+    height: 450px;
+    width: 100%;
+    background-image: url(../image/light.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    cursor: pointer;
+    position: absolute;
+    z-index: -99;
+}
+/* 版心广告结束 */
+/* main开始 */
+.main{
+    position: relative;
+    margin-bottom: 10px;    
+}
+.main .main-slider{
+    height: 454px;
+    width: 730px;
+    margin: 11px 0 0 219px;
+    position: relative;
+}
+.main .main-slider a{
+    display: block;
+}
+.main .main-slider ul{
+    position: absolute;
+    bottom: 10px;
+    right: 50%;
+    margin-right: -51px;
+}
+.main .main-slider ul li{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color: rgb(26, 27, 27);
+    border-radius: 8px;
+    text-align: center;
+    line-height: 18px;
+    color: antiquewhite;
+    opacity: .6;
+}
+.main .main-slider li.current{
+    background-color: #c81623;
+    opacity: .8;
+}
+.main-slider .arrow{
+    width:100%;
+    height: 62px;
+    position: absolute;
+    top: 50%;
+    margin-top: -31px;
+    left: 50%;
+    margin-left: -365px;
+}
+.arrow a{
+    display: block;
+    width: 28px;
+    height: 62px;
+    background-color: rgba(0,0,0,.3);
+    background-repeat: no-repeat;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    line-height: 62px;
+}
+.arrow a.arrowl{
+    float: left;
+    background-position: -85px -4px;
+}
+.arrow a.arrowl:hover{
+    background-color: rgba(0,0,0,.6);
+}
+.arrow a.arrowr{
+    float: right;
+    background-position: 129 -4px;
+}
+.arrow a.arrowr:hover{
+    background-color: rgba(0,0,0,.6);
+}
+.main-jd-new{
+    width: 250px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.partA{
+    border: 1px solid #ccc;
+}
+
+.main-jd-new-fastnew{
+    width: 220px;
+    height:32px;
+    padding: 0 15px;
+    border-bottom: 1px dotted rgb(216, 212, 212);
+}
+.main-jd-new-fastnew h1{
+    float: left;
+    font-size: 16px;
+    line-height: 32px;
+}
+.main-jd-new-fastnew a{
+    float: right;
+    font-size: 12px;
+    line-height: 32px;
+}
+.main-jd-new-price{
+    padding: 9px 0 0 15px;
+    border-bottom: 1px dashed rgb(216, 212, 212);
+}
+.main-jd-new-price ul li {   
+    width: 100%;
+    height: 24px;
+}
+.main-jd-new-spend{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1px;
+}
+.main-jd-new-spend ul{
+    display: flex;
+    flex: 1;
+}
+.main-jd-new-spend ul li{
+    flex: 1;
+    border-right: 1px dashed rgb(216, 212, 212);
+    
+}
+.main-jd-new-spend ul li a{
+    display: block;
+    padding-top: 48px;
+    width: 62px;
+    height: 22px;
+    text-align: center;
+    position: relative;
+}
+.main-jd-new-spend ul li a i{
+    display: block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-color: #fff;
+    top:14px;
+    left: 20px;
+    background-image: url(../image/fly.png);
+    background-repeat: no-repeat;
+}
+.main-jd-new-spend ul{
+    border-bottom: 1px dashed rgb(216, 212, 212);
+}
+
+.main-jd-new-spend .last-li{
+    border-right:none;
+}
+/* main结束 */
+/* today开始 */
+.today{
+
+}
+.today .today-recom{
+    float: left;
+}
+.today .today-recom a{
+    display: block;
+    width: 210px;
+    height: 151px;
+    background-image: url(../image/today.png);
+    background-repeat: no-repeat;
+    background-position: -213px -135px;
+}
+.today .toady-slider{
+    float: right;
+    width: 1000px;
+    height: 160px;
+    position: relative;
+}
+.today .toady-slider ul{
+    display: flex;
+}
+.today .toady-slider ul li{
+    flex:1;
+    margin-left: 1px;
+}
+.today .toady-slider ul li a{
+    display: block;
+    width: 100%;
+    height: 160px;
+    background-image: url(../image/img2.jpg);
+    background-repeat: no-repeat;
+}
+.today-slider-btn{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    margin-top: -31px;
+    height: 62px;
+}
+.today-slider-btn a{
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    width: 28px;
+    height: 62px;
+    color: white;
+    line-height: 62px;
+    background-color: rgba(0,0,0,.3);
+}
+.today-slider-btn a:hover{
+    background-color: rgba(0,0,0,.6);
+}
+.today-slider-btn .btn-l{
+    float: left;
+}
+.today-slider-btn .btn-r{
+    float: right;
+}
+.footer{
+    height: 300px;
+    
+}
+.footer-top-logo{
+    height: 94px;
+    margin-bottom: 15px;
+    background-color: #f5f5f5;
+}
+.footer-top-logo-ul{
+    display: flex;
+    height: 94px;
+}
+.footer-top-logo-ul li{
+    flex: 1;
+    padding: 20px 0;
+    position: relative;
+}
+.footer-top-logo-ul li i{
+    display: block;
+    width: 220px;
+    height: 54px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -27px;
+}
+.i1{
+    background-image: url(../image/slogan1.png);
+}
+.i2{
+    background-image: url(../image/slogan2.png);
+}
+.i3{
+    background-image: url(../image/slogan3.png);
+}
+.i4{
+    background-image: url(../image/slogan4.png);
+}
+.footer-top-shopping{
+
+}
+.footer-top-shopping ul{
+    width: 200px;
+    float: left;
+}
+.footer-top-shopping ul.shopping-last-ul{
+    width: 100px;
+}
+.footer-top-shopping ul li{
+    height: 20px;
+}
+.footer-top-shopping ul li.shopping-first-li{
+    height: 35px;
+    font: 400 16px/35px 微软雅黑;
+}
+.shopping-last-div{
+    width: 186px;
+    height: 170px;
+    padding-left: 17px;
+    margin-right: 50px;
+    float: right;
+}
+.shopping-last-div h3{
+    font: 400 16px/35px 微软雅黑;
+}
+
+.shopping-last-div p{
+    margin-top: 8px;
+}
+.shopping-last-div a{
+    float: right;
+}
+.footer-bottom{
+    /* height: 131px; */
+    padding: 20px 0 30px 0;
+    border-top: 1px solid #e5e5e5;
+}
+.bottom-about ul{
+    width: 380px;
+    margin: 0 auto;
+}
+.bottom-about ul li{
+    display: inline-block;
+}
+.bottom-about ul li.bottom-about-line{
+    margin: 0 10px;
+}
+.bottom-copyright{
+    margin: 10px 0;
+}
+.bottom-copyright a{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 2px;
+}
+.bottom-copyright a img{
+    display: inline;
+    vertical-align: middle;
+}
+.bottom-logo{
+    text-align: center;
+}
+.bottom-logo img{
+    display: inline-block;
+   
+}
+/* today结束 */
